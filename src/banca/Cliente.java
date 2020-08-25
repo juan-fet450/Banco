@@ -9,6 +9,8 @@ package banca;
  *
  * @author Juan Osorio
  */
+//edicion por medio de git
+
 public class Cliente {
     private String nombre;
     private String cedula;
