@@ -9,7 +9,7 @@ import java.util.HashMap;
 
 /**
  *
- * @author Juan Osorio
+ * @author yeison lizcano
  */
 public class Banco {
     private HashMap<Double,Cliente> cuentasAhorros = new HashMap();
