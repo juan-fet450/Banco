@@ -15,23 +15,26 @@ import java.util.Map;
  * @author Juan Osorio
  * @since 8/25/2020
  * @author yeison lizcano
+ * @Jeniffer
  */
 public class Banco {
     
-    private HashMap<Double,Cliente> cuentasAhorros = new HashMap();
-    private HashMap<Double,Double> saldoAhorros = new HashMap();
-    private HashMap<Double,Cliente> cuentasCorriente = new HashMap();
-    private HashMap<Double,Double> saldoCorriente = new HashMap();
-    private HashMap<Double,Cliente> tarjetaDebito = new HashMap();
-    private HashMap<Double,Cliente> tarjetaCredito = new HashMap();
-    private HashMap<Double,Cliente> prestamos = new HashMap();
-    private ArrayList<Double> Fondos = new ArrayList();
+    private HashMap<Double,Cliente> cuentasAhorros = new HashMap<>();
+    private HashMap<Double,Double> saldoAhorros = new HashMap<>();
+    private HashMap<Double,Cliente> cuentasCorriente = new HashMap<>();
+    private HashMap<Double,Double> saldoCorriente = new HashMap<>();
+    private HashMap<Double,Cliente> tarjetaDebito = new HashMap<>();
+    private HashMap<Double,Cliente> tarjetaCredito = new HashMap<>();
+    private HashMap<Double,Cliente> prestamos = new HashMap<>();
+    private ArrayList<Double> Fondos = new ArrayList<>();
     
-    public void crearCuentaAhorros(double num, Cliente cliente){
+    public void crearCuentaAhorros(double saldo,double num, Cliente cliente){
         
         this.cuentasAhorros.put(num, cliente);
         
-        this.Fondos.add(num);
+        this.Fondos.add(saldo);
+        
+        this.saldoAhorros.put(num, saldo);
         
     }
     public void crearCuentaCorriente(double num, Cliente cliente){

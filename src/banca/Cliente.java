@@ -64,7 +64,7 @@ public class Cliente {
     }
     
 //Metodo para abrir una cuenta
-    public boolean abrirCuenta(String tipo){
+    public boolean abrirCuenta(String tipo, double saldo){
         
         double aux, aux2;
         
