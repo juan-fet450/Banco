@@ -61,6 +61,7 @@ public class Cliente {
         this.clave = clave;
     }
     
+//Metodo para abrir una cuenta
     public boolean abrirCuenta(String tipo){
         
         double aux, aux2;
