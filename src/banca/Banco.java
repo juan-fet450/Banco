@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+//cambiooo
 package banca;
 
 import java.util.ArrayList;
@@ -13,6 +14,7 @@ import java.util.Map;
  *
  * @author Juan Osorio
  * @since 8/25/2020
+ * @author yeison lizcano
  */
 public class Banco {
     
